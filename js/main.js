@@ -38,9 +38,10 @@
             </div>
       `.trim();*/
       return `
+<a href="https://fostij.github.io/Mitler.github.io/">
     <div class="card">
           <figure class="front">
-            <img href="https://fostij.github.io/Mitler.github.io/" src="img/portfolio/${item.backImg}" alt="front" />
+            <img src="img/portfolio/${item.backImg}" alt="front" />
             <div class="caption">
               <h2><span>${item.header}</span></h2>
               <p>${item.descr}</p>
@@ -57,6 +58,7 @@
             </div>
           </figure>
         </div>
+</a>
     `.trim();
     }
 
