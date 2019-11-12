@@ -47,7 +47,6 @@
               <p>${item.descr}</p>
             </div>
           </figure>
-          </a>
 
           <figure class="back">
             <img src="img/portfolio/${item.frontImg}" alt="back" />
@@ -59,6 +58,7 @@
             </div>
           </figure>
         </div>
+</a>
     `.trim();
     }
 
