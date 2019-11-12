@@ -39,7 +39,7 @@
       `.trim();*/
       return `
     <div class="card">
-          <a href="${item.link}">
+         <a href="${item.link}">
           <figure class="front">
             <img src="img/portfolio/${item.backImg}" alt="front" />
             <div class="caption">
@@ -47,18 +47,18 @@
               <p>${item.descr}</p>
             </div>
           </figure>
-</a>
+         </a>
 
-//           <figure class="back">
-//             <img src="img/portfolio/${item.frontImg}" alt="back" />
-//             <div class="caption">
-//               <dl>
-//                 <dt>Web</dt>
-//                 <dd>${item.date}</dd>
-//               </dl>
-//             </div>
-//           </figure>
-            </div>
+          <figure class="back">
+          <img src="img/portfolio/${item.frontImg}" alt="back" />
+          <div class="caption">
+          <dl>
+          <dt>Web</dt>
+          <dd>${item.date}</dd>
+          </dl>
+          </div>
+          </figure>
+        </div>
     `.trim();
     }
 
