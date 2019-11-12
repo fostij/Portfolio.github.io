@@ -38,7 +38,7 @@
             </div>
       `.trim();*/
       return `
-    <a href="${item.link}">
+   <a href="${item.link}">
     <div class="card">
           <figure class="front">
             <img src="img/portfolio/${item.backImg}" alt="front" />
@@ -58,7 +58,7 @@
             </div>
           </figure>
         </div>
-</a>
+       </a>
     `.trim();
     }
 
@@ -90,8 +90,8 @@
           backImg: `mitler.png`,
           link: `https://fostij.github.io/Mitler.github.io/`,
           backText: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
-        velit quae suscipit c.`,
-          date: `03.03.2019`
+          velit quae suscipit c.`,
+          date: `03.03.2019`,
         },
         {
           header: `Time`,
@@ -101,7 +101,7 @@
           
           backText: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
         velit quae suscipit c.`,
-          date: `15.01.2019`
+          date: `15.01.2019`,
         },
         {
           header: `Treatwell`,
