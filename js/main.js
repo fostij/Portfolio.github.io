@@ -38,14 +38,16 @@
             </div>
       `.trim();*/
       return `
+    <a href="${item.link}">
     <div class="card">
           <figure class="front">
-            <img href="${item.link}" alt="front" />
+            <img src="img/portfolio/${item.backImg}" alt="front" />
             <div class="caption">
               <h2><span>${item.header}</span></h2>
               <p>${item.descr}</p>
             </div>
           </figure>
+          </a>
 
           <figure class="back">
             <img src="img/portfolio/${item.frontImg}" alt="back" />
