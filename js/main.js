@@ -39,7 +39,7 @@
       `.trim();*/
       return `
     <div class="card">
-         <a href="${item.link}">
+         <a href="${item.links}">
           <figure class="front">
             <img src="img/portfolio/${item.backImg}" alt="front" />
             <div class="caption">
@@ -88,7 +88,7 @@
           descr: `HTML5, CSS3, Bootstrap 4 , JS`,
           frontImg: `diary-index.png`,
           backImg: `mitler.png`,
-          link: `https://fostij.github.io/Mitler.github.io/`,
+          links: `https://fostij.github.io/Mitler.github.io/`,
           backText: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
           velit quae suscipit c.`,
           date: `03.03.2019`,
