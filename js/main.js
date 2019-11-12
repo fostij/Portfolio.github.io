@@ -39,8 +39,8 @@
       `.trim();*/
       return `
     <div class="card">
-          <figure  href=`${item.link}` class="front">
-            <img src="img/portfolio/${item.backImg}" alt="front" />
+          <figure class="front">
+            <img href="${item.link}" alt="front" />
             <div class="caption">
               <h2><span>${item.header}</span></h2>
               <p>${item.descr}</p>
